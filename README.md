@@ -33,11 +33,13 @@ Once the account is created by the admin, a user can:
 ## 📂 Project Structure
 ```
 📦 basic-python-atm-simulator
- ┣ 📜 main.py              # Main entry point
- ┣ 📜 atm_gui.py           # Tkinter UI code
- ┣ 📜 db_connection.py     # MySQL database connection
- ┣ 📜 requirements.txt     # Required dependencies
- ┗ 📜 README.md            # Project documentation
+ ┣ 📜 homepage.py           # Main entry point run this page  create admin manually
+ ┣ 📜 adminlog.py           # Tkinter UI code  you can login as admin you will enter adminstrator page
+ ┣ 📜 administrator.py      # You can create a card holder after creating a card holder go to homepage and enter banking section you will see a login page for card holders
+ ┣ 📜 Login_window.py       # you can enter the creadentials and enter atm service page
+ ┣ 📜 Atmservicespage.py    # in this page you can select the services that are avaliable
+ ┣ 📜 requirements.txt      # Required dependencies
+ ┗ 📜 README.md             # Project documentation
 ```
 
 ---
