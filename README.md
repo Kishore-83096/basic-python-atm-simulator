@@ -64,7 +64,7 @@ pip install -r requirements.txt
 - Update database credentials in `adminlog.py , Administrator.py , Login_window.py`.
 - table will be automatically create but you have to insert an admin into the administrator table use the below query as reference
 ```bash
-- INSERT INTO administrator (adminid, name, pin)VALUES ('Kishore@Admin.bank', 'Kishore', '0000');
+- INSERT INTO administrator (Admin_id, Admin_name, Pin)VALUES ('Kishore@Admin.bank', 'Kishore', '0000');
 ```
 
 
