@@ -1,0 +1,79 @@
+# 🏦 Basic ATM Simulator
+
+This is a **Basic ATM Simulator** project built with **Python**, **Tkinter** (for GUI), and **MySQL** (as the database).  
+It demonstrates how a simple ATM system works, including account creation, login, and basic banking operations.
+
+---
+
+## 🚀 Features
+
+### 🔑 Superuser (Admin)
+- Only **one admin** exists in the system.
+- Admin can **create ATM accounts** for users.
+- Admin assigns a **card number** and **password** when creating accounts.
+
+### 👤 User
+Once the account is created by the admin, a user can:
+- Login using **card number** and **password**.
+- Check account **balance**.
+- **Deposit (Credit)** money.
+- **Withdraw** money.
+- View **Mini Statement** (recent transactions).
+- View **Bank Statement** (all transactions).
+
+---
+
+## 🛠️ Tech Stack
+- **Python** (Core logic)
+- **Tkinter** (GUI)
+- **MySQL** (Database)
+
+---
+
+## 📂 Project Structure
+```
+📦 basic-python-atm-simulator
+ ┣ 📜 main.py              # Main entry point
+ ┣ 📜 atm_gui.py           # Tkinter UI code
+ ┣ 📜 db_connection.py     # MySQL database connection
+ ┣ 📜 requirements.txt     # Required dependencies
+ ┗ 📜 README.md            # Project documentation
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Kishore-83096/basic-python-atm-simulator.git
+cd basic-python-atm-simulator
+```
+
+### 2️⃣ Install dependencies
+Make sure you have **Python 3.x** installed.
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Setup MySQL Database
+- Install MySQL and create a database (e.g., `atm_db`).
+- Update database credentials in `db_connection.py`.
+- Run the SQL script to create necessary tables.
+
+### 4️⃣ Run the project
+```bash
+python main.py
+```
+
+---
+
+## 👨‍💻 Author
+- **Kishore Siripurapu**  
+  Basic Python ATM Simulator using Tkinter & MySQL
+
+---
+
+## 📜 License
+This project is for **educational purposes only**. Not intended for production banking use.
