@@ -1,0 +1,22 @@
+atmhoders table
+card number     name                  userid                        pin
+_______________________________________________________________________
+234589099090	Priyanka Sharma	      PriyankaSharma@atm.com	    0000
+454567890125	Shiva Prasad	      ShivaPrasad@atm.com	        7890
+454567891234	Kishore Siripurapu	  KishoreKumar@atm.com	        0000
+656412378908	Naveen Chowdary	      NaveenChowdary@atm.com	    4545
+678912347890	Srinivas Murty	      Srinivasmurty@atm.com	        1235
+778907890654	Kanth Prakash	      Kanthprakash@atm.com	        8888
+787856563435	Prabhas Raju	      PrabhasRaju@atm.com	        3333
+789012340977	Krishna Kanth	      Krishnakanth@atm.com	        1111
+789867890125	Manoj Kumar	          ManojKumar@atm.com	        6767
+875700011122	Narayana Murty	      Narayannamurty@atm.com	    0909
+878712123456	Hemanth Kumar	      Hemanthkumar@atm.com	        7898
+890956346788	Ravi Kumar	          RaviKumar@atm.com		        3457
+
+
+admin table
+adminid             name       pin
+Kishore@Admin.bank	Kishore	   0000
+
+
