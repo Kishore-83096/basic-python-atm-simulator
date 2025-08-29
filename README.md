@@ -60,8 +60,11 @@ pip install -r requirements.txt
 ```
 
 ### 3️⃣ Setup MySQL Database
-- Install MySQL and create a database (e.g., `atm_db`).
-- Update database credentials in `db_connection.py`.
+- Install MySQL and create a database (e.g., `atm`).
+- Update database credentials in `adminlog.py , Administrator.py , Login_window.py`.
+- table will be automatically create but you have to insert an admin into the administrator table use the below query as reference
+- INSERT INTO administrator (adminid, name, pin)VALUES ('Kishore@Admin.bank', 'Kishore', '0000');
+
 - Run the SQL script to create necessary tables.
 
 ### 4️⃣ Run the project
