@@ -74,14 +74,3 @@ pip install -r requirements.txt
 ```bash
 python Homepage.py
 ```
-
----
-
-## 👨‍💻 Author
-- **Kishore Siripurapu**  
-  Basic Python ATM Simulator using Tkinter & MySQL
-
----
-
-## 📜 License
-This project is for **educational purposes only**. Not intended for production banking use.
